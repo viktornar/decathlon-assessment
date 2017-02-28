@@ -13,9 +13,7 @@ The main technologies (frameworks, build tools) that was used in project
 
 > **Note:**
 
-> - Project was written by using Java SDK 1.8. Source was compiled without Java 1.7 compatibility.
-
-![image](https://raw.githubusercontent.com/viktornar/decathlon-assessment/master/images/pincipal_schema.png)
+> - Project was written by using Java SDK 1.8. Source was compiled without compatibility with older Java version.
 
 How to build and run project
 -------------
