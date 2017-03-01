@@ -42,9 +42,11 @@ public class DecathlonAssessor implements Assessor {
 
             List<Double> records = athlete.getRecords();
             int size = athlete.getRecords().size();
+            int coeficientsSize = coefficients.length;
 
             // Make assumptions that data always comes in the same order corresponding to competition event
-            for (int i = 0, j = 0; i == j && i < size; i++, j++) {
+            // Just in case iteration is done by different idx to avoid IndexOutOfBox error.
+            for (int i = 0, j = 0; j < coeficientsSize && i < size; i++, j++) {
                 Double a = coefficients[j][0];
                 Double b = coefficients[j][1];
                 Double c = coefficients[j][2];
