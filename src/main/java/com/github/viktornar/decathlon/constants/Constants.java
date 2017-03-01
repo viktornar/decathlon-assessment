@@ -37,7 +37,7 @@ public class Constants {
     public final static String CSV_ENCODER = "csv";
     public final static String XML_ENCODER = "xml";
 
-    public final static String ACCESS_DENIED_EXCEPTION = "xml";
+    public final static String ACCESS_DENIED_EXCEPTION = "Denied access for creating file";
 
-    public static final int BUFFER_SIZE = 2 * 1024 * 1024;
+    public final static int BUFFER_SIZE = 2 * 1024 * 1024;
 }
